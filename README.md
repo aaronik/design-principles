@@ -71,9 +71,29 @@ If the method doesn't vary, you keep it in the parent class. If the method varie
 If you have a class that does, say, system methods, make an interface for it and hide those details behind that.
 Then you inject those dependencies and they can change.
 
+### From the session
+
+#### Don't unnecessarily complect things (a la Rich Hickey)
+#### Call things what they are
+#### Outside In
+#### Contain the imperative steps
+#### Algebraic datatypes are great - functions, products and enums
+#### Functional core, imperative shell - Gary Barnheart, Destroy all Software (thanks to Tim)
+#### Against endowing nil with meaning beyond absence
+#### Parce don't validate - eliminate validations as quickly as possible and not propagate them
+#### Make impossible states impossible to represent -
+#### "Dependently typed" languages are provably correct. Agda or Idress or Coq or Lean are examples, in order of popularity
+#### "Homotopy theory" - the theory of open categories
+#### "Algebra Driven Design" - A book on modeling your domain in algebraic types
+#### Conway's Law - organizations design systems that mirror their own communication structure
+
 ## References
+https://alistair.cockburn.us/hexagonal-architecture/
+https://algebradriven.design/
+https://lamport.azurewebsites.net/tla/tla.html
+https://www.infoq.com/presentations/Simple-Made-Easy/
 
 https://www.youtube.com/watch?v=pIJbp5Q3jhQ&ab_channel=UTSSoftwareEngineering
 https://www.youtube.com/watch?v=lLLVw0DCJto&ab_channel=JavaUserGroupSwitzerland
-
+Artium Hivemind
 
